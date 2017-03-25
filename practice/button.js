@@ -24,3 +24,14 @@ board.on('ready', () => {
     led.off();
   });
 });
+
+/* Breadboard setup
+5v -> 1-
+GND -> 1+
+Digital 2 -> 7b
+2- -> 5a
+10- -> 10a
+10a <330 resistor> 7c
+button -> 5e, 7e
+led (directly in arduino) -> dig13, gnd
+*/
